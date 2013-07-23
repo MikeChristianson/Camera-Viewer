@@ -8,3 +8,8 @@ repositories {
 dependencies {
     testCompile 'junit:junit:4.+'
 }
+
+task "createDirs" << { //from http://docs.codehaus.org/display/GRADLE/Cookbook
+    sourceSets*.java.srcDirs*.each { it.mkdirs() }
+    sourceSets*.resources.srcDirs*.each { it.mkdirs() }
+}
