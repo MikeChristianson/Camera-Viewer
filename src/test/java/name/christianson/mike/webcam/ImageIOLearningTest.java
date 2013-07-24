@@ -37,7 +37,7 @@ public class ImageIOLearningTest {
 
     @Before
     public void setUp() throws Exception {
-        AuthCacheValue.setAuthCache(new AuthCacheImpl());
+        AuthCacheValue.setAuthCache(new AuthCacheImpl()); //workaround for Java bug http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=6626700
         Authenticator.setDefault(null);
     }
 
