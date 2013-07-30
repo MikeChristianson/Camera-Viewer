@@ -6,6 +6,7 @@ repositories {
 }
 
 dependencies {
+    compile 'com.google.http-client:google-http-client:1.15.0-rc'
     testCompile 'junit:junit:4.+'
 }
 
