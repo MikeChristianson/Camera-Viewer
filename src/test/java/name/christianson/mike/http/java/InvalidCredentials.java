@@ -1,4 +1,4 @@
-package name.christianson.mike.webcam;
+package name.christianson.mike.http.java;
 
 import java.net.Authenticator;
 import java.net.PasswordAuthentication;

@@ -1,4 +1,4 @@
-package name.christianson.mike.webcam;
+package name.christianson.mike.http.java;
 
 import org.junit.Before;
 import org.junit.BeforeClass;
